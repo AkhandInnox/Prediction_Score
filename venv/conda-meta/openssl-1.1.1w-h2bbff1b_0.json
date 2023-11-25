@@ -1,7 +1,7 @@
 {
   "build": "h2bbff1b_0",
   "build_number": 0,
-  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "channel": "https://conda.anaconda.org/anaconda/win-64",
   "constrains": [],
   "depends": [
     "ca-certificates",
@@ -139,18 +139,16 @@
     "Library/ssl/openssl.cnf.dist",
     ".nonadmin"
   ],
-  "fn": "openssl-1.1.1w-h2bbff1b_0.conda",
-  "legacy_bz2_md5": "a67d4a763641de641ea9dfa8c4a5f567",
-  "legacy_bz2_size": 6048217,
+  "fn": "openssl-1.1.1w-h2bbff1b_0.tar.bz2",
   "license": "OpenSSL",
   "license_family": "Apache",
   "link": {
     "source": "C:\\Users\\Akhand Pratap Singh\\anaconda3\\pkgs\\openssl-1.1.1w-h2bbff1b_0",
     "type": 1
   },
-  "md5": "e2e24f1ea50292279c7ea3fe32924095",
+  "md5": "a67d4a763641de641ea9dfa8c4a5f567",
   "name": "openssl",
-  "package_tarball_full_path": "C:\\Users\\Akhand Pratap Singh\\anaconda3\\pkgs\\openssl-1.1.1w-h2bbff1b_0.conda",
+  "package_tarball_full_path": "C:\\Users\\Akhand Pratap Singh\\anaconda3\\pkgs\\openssl-1.1.1w-h2bbff1b_0.tar.bz2",
   "paths_data": {
     "paths": [
       {
@@ -1053,11 +1051,11 @@
     "paths_version": 1
   },
   "requested_spec": "None",
-  "sha256": "6a199ee325b4017701b27f90620daa6666c74b2f3ba9b9f8c79844b3fff15472",
-  "size": 5763830,
+  "sha256": "0474e14823c734edc088bef98b829149a47ed8b4654f9638926c2fe4bbc40f38",
+  "size": 6048217,
   "subdir": "win-64",
   "timestamp": 1694466133007,
   "track_features": "",
-  "url": "https://repo.anaconda.com/pkgs/main/win-64/openssl-1.1.1w-h2bbff1b_0.conda",
+  "url": "https://conda.anaconda.org/anaconda/win-64/openssl-1.1.1w-h2bbff1b_0.tar.bz2",
   "version": "1.1.1w"
 }
