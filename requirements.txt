@@ -5,4 +5,9 @@ scikit-learn
 tensorflow
 matplotlib
 dill
+imblearn
+catboost
+lightgbm
+xgboost
+pycaret
 # -e .

@@ -77,7 +77,7 @@ class DataTransformation:
         
             preprocessing_obj=self.get_data_transformer_object()
         
-            target_column_name=['y']
+            target_column_name='y'
             numerical_columns=['age', 'balance','duration', 'campaign', 'pdays','previous']
         
 
