@@ -13,3 +13,4 @@ Credit scoring algorithms, which make a guess at the probability of default, are
 The goal of this competition is to build a model that borrowers can use to help make the best financial decisions.
 
 Historical data are provided on 250,000 borrowers.
+
