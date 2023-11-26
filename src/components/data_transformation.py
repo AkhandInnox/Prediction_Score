@@ -29,10 +29,9 @@ class DataTransformation:
         
         '''
         try:
-            numerical_columns=['PM2.5']
-            categorical_columns=['T','TM','Tm','SLP','H','PP','VV','V','VM']
+            numerical_columns=['age', 'balance','duration', 'campaign', 'pdays','previous']
+            categorical_columns=['job', 'marital', 'education', 'default','housing','loan', 'contact','month','poutcome', 'y']
             
-
             num_pipeline= Pipeline(
                 steps=[
                 ("imputer",SimpleImputer(strategy="median")),
@@ -78,8 +77,8 @@ class DataTransformation:
         
             preprocessing_obj=self.get_data_transformer_object()
         
-            target_column_name='PM2.5'
-            numerical_columns=['T','TM','Tm','SLP','H','PP','VV','V','VM']
+            target_column_name=['y']
+            numerical_columns=['age', 'balance','duration', 'campaign', 'pdays','previous']
         
 
             input_feature_train_df=train_df.drop(columns=[target_column_name],axis=1)
